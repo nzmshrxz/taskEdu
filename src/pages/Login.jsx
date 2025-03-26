@@ -32,14 +32,14 @@ const Login = () => {
                 <label htmlFor="email" className="absolute left-3 bg-[#F7F8F9] px-1 text-sm text-purple-600">
                   Email
                 </label>
-                <input id="email" className="w-full px-3 py-4 border border-gray-300 rounded-md" type="email" />
+                <input id="email" className="w-full px-3 outline-none py-4 border border-gray-300 rounded-md" type="email" />
               </div>
               {/* For Password */}
               <div className="relative w-full">
                 <label htmlFor="password" className="absolute left-3 bg-[#F7F8F9] px-1 text-sm text-purple-600">
                   Password
                 </label>
-                <input id="password" className="w-full px-3 py-4 border border-gray-300 rounded-md" type="password" />
+                <input id="password" className="w-full px-3 py-4 outline-none border border-gray-300 rounded-md" type="password" />
               </div>
               {/* Login Button */}
               <div className="flex justify-center w-full mt-6">
