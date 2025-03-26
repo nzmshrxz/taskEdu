@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+
+*{
+  overflow: hidden;
+  font-family: 'Rubik';
+}
